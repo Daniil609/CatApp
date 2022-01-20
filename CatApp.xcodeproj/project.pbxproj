@@ -88,9 +88,9 @@
 		3A4DA8432798300000FA7AF7 /* CatApp */ = {
 			isa = PBXGroup;
 			children = (
-				3AF8FA162799614100063358 /* Extensions */,
-				3AF8FA082798C3F100063358 /* Managers */,
-				3A4DA85C2798342700FA7AF7 /* UI */,
+				3ADAF4472799907C0038ED33 /* UI */,
+				3ADAF4432799901E0038ED33 /* Managers */,
+				3ADAF44227998FF20038ED33 /* Extensions */,
 				3A4DA8442798300000FA7AF7 /* AppDelegate.swift */,
 				3A4DA8462798300000FA7AF7 /* SceneDelegate.swift */,
 				3A4DA84A2798300000FA7AF7 /* Main.storyboard */,
@@ -101,112 +101,112 @@
 			path = CatApp;
 			sourceTree = "<group>";
 		};
-		3A4DA85B2798341600FA7AF7 /* APIManager */ = {
+		3ADAF44227998FF20038ED33 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				3A4DA85F2798348B00FA7AF7 /* Model */,
-				3A4DA8622798352C00FA7AF7 /* APICaller.swift */,
+				3AF8FA172799615400063358 /* Extensions.swift */,
 			);
-			name = APIManager;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		3A4DA85C2798342700FA7AF7 /* UI */ = {
+		3ADAF4432799901E0038ED33 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				3AF8FA152799609000063358 /* TabBar */,
-				3AF8FA002798A85C00063358 /* FavoritePhotos */,
-				3AF8F9FE2798A83C00063358 /* AllPhotos */,
+				3ADAF445279990400038ED33 /* APIManager */,
+				3ADAF4442799902F0038ED33 /* SaveManager */,
 			);
-			name = UI;
+			path = Managers;
 			sourceTree = "<group>";
 		};
-		3A4DA85F2798348B00FA7AF7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3A4DA860279834BA00FA7AF7 /* DataModel.swift */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		3AF8F9FE2798A83C00063358 /* AllPhotos */ = {
-			isa = PBXGroup;
-			children = (
-				3AF8F9FF2798A84F00063358 /* View */,
-				3A4DA8482798300000FA7AF7 /* AllPhotosViewController.swift */,
-				3A4DA85D2798343F00FA7AF7 /* AllPhotosVM.swift */,
-			);
-			name = AllPhotos;
-			sourceTree = "<group>";
-		};
-		3AF8F9FF2798A84F00063358 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3AF8FA19279982DF00063358 /* Cell */,
-				3AF8F9F727987A1A00063358 /* ItemView.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		3AF8FA002798A85C00063358 /* FavoritePhotos */ = {
-			isa = PBXGroup;
-			children = (
-				3AF8FA102798CAD900063358 /* View */,
-				3AF8FA042798A8BB00063358 /* FavoriteViewController.swift */,
-				3AF8FA062798BC4E00063358 /* FavoriteVM.swift */,
-			);
-			name = FavoritePhotos;
-			sourceTree = "<group>";
-		};
-		3AF8FA082798C3F100063358 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				3AF8FA092798C40200063358 /* SaveManager */,
-				3A4DA85B2798341600FA7AF7 /* APIManager */,
-			);
-			name = Managers;
-			sourceTree = "<group>";
-		};
-		3AF8FA092798C40200063358 /* SaveManager */ = {
+		3ADAF4442799902F0038ED33 /* SaveManager */ = {
 			isa = PBXGroup;
 			children = (
 				3AF8FA0A2798C41900063358 /* SavePhotoManager.swift */,
 				3AF8FA0C2798C65100063358 /* Image.swift */,
 			);
-			name = SaveManager;
+			path = SaveManager;
 			sourceTree = "<group>";
 		};
-		3AF8FA102798CAD900063358 /* View */ = {
+		3ADAF445279990400038ED33 /* APIManager */ = {
 			isa = PBXGroup;
 			children = (
-				3AF8FA0E2798CABD00063358 /* FavoriteTableViewCell.swift */,
+				3ADAF4462799905A0038ED33 /* Model */,
+				3A4DA8622798352C00FA7AF7 /* APICaller.swift */,
 			);
-			name = View;
+			path = APIManager;
 			sourceTree = "<group>";
 		};
-		3AF8FA152799609000063358 /* TabBar */ = {
+		3ADAF4462799905A0038ED33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A4DA860279834BA00FA7AF7 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ADAF4472799907C0038ED33 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3ADAF44C279990D70038ED33 /* FavoritePhotos */,
+				3ADAF4492799909F0038ED33 /* AppPhotos */,
+				3ADAF4482799908D0038ED33 /* TabBar */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3ADAF4482799908D0038ED33 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
 				3AF8F9FC2798A6EC00063358 /* TabBarViewController.swift */,
 			);
-			name = TabBar;
+			path = TabBar;
 			sourceTree = "<group>";
 		};
-		3AF8FA162799614100063358 /* Extensions */ = {
+		3ADAF4492799909F0038ED33 /* AppPhotos */ = {
 			isa = PBXGroup;
 			children = (
-				3AF8FA172799615400063358 /* Extensions.swift */,
+				3A4DA8482798300000FA7AF7 /* AllPhotosViewController.swift */,
+				3A4DA85D2798343F00FA7AF7 /* AllPhotosVM.swift */,
+				3ADAF44A279990AA0038ED33 /* View */,
 			);
-			name = Extensions;
+			path = AppPhotos;
 			sourceTree = "<group>";
 		};
-		3AF8FA19279982DF00063358 /* Cell */ = {
+		3ADAF44A279990AA0038ED33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8F9F727987A1A00063358 /* ItemView.swift */,
+				3ADAF44B279990B50038ED33 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3ADAF44B279990B50038ED33 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				3A4DA86827984C6E00FA7AF7 /* AllPhotosTableViewCell.swift */,
 				3AF8FA112799553600063358 /* LoadingViewCell.swift */,
 				3AF8FA122799553600063358 /* LoadingViewCell.xib */,
 			);
-			name = Cell;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3ADAF44C279990D70038ED33 /* FavoritePhotos */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8FA042798A8BB00063358 /* FavoriteViewController.swift */,
+				3AF8FA062798BC4E00063358 /* FavoriteVM.swift */,
+				3ADAF44D2799910C0038ED33 /* View */,
+			);
+			path = FavoritePhotos;
+			sourceTree = "<group>";
+		};
+		3ADAF44D2799910C0038ED33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8FA0E2798CABD00063358 /* FavoriteTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
